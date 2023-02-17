@@ -14,6 +14,7 @@ ul {
     display: inline-block;
 }
 
+
 #search{
     border: none;
     height: 30px;
@@ -131,6 +132,8 @@ nav ul li a:hover{
     font-size: 35px;
     text-shadow: 1px 1px 5px black;
 }
+
+
 .list-item{
     transform: translateY(-100px);
     display: flex;
@@ -293,3 +296,27 @@ input#name, input#price{
     margin-top: 100px;
 }
 
+@media only screen and (max-width:900px){
+    .search-box{
+        display: none;
+    }
+
+    .mid-list {display: none;}
+
+    .left-corner{display: none;}
+    
+    .bg {
+        line-height: 70px;
+        font-size: 20px;
+        padding: 20vh 20px;
+        height: auto;
+    }
+
+    .web-name{
+        font-size: 25px;
+    }
+
+    #add-btn{
+        left: 320px;
+    }
+}
